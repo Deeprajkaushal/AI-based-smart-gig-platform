@@ -45,3 +45,26 @@ Thumbs.db
 # Logs
 # =========================
 *.log
+
+# Python virtual environment
+backend/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python test/cache files
+.pytest_cache/
+.coverage
